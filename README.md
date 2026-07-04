@@ -1,36 +1,32 @@
-# BMI Calculator
+# Python Basics 🐍
 
-Calculates Body Mass Index based on height and weight, then prints the weight category.
+Small Python scripts I wrote while learning the fundamentals. Each one is a standalone program that runs from the terminal — no external libraries required.
 
-## How it works
+---
 
-1. User enters height in cm and weight in kg
-2. Script converts height to meters and applies the BMI formula
-3. Result is classified using standard WHO thresholds
+## Scripts
 
-**Formula:** `BMI = weight (kg) / height (m)²`
+| File | What it does |
+|------|-------------|
+| [bmi_calculator.py](bmi_calculator.py) | Calculates BMI and shows weight category |
+| [palindrome_checker.py](palindrome_checker.py) | Checks if a word/phrase is a palindrome |
+| [password_validator.py](password_validator.py) | Validates password strength across 5 criteria |
 
-| BMI | Category |
-|-----|----------|
-| < 18.5 | Underweight |
-| 18.5 – 24.9 | Normal |
-| 25.0 – 29.9 | Overweight |
-| ≥ 30.0 | Obese |
+---
 
-## Run
+## Run any script
 
 ```bash
 python bmi_calculator.py
+python palindrome_checker.py
+python password_validator.py
 ```
 
-## Example
+Python 3.x required. No pip installs needed.
 
-```
-Enter your height (cm): 175
-Enter your weight (kg): 70
-BMI: 22.86 — Normal
-```
+---
 
-## Requirements
+## Author
 
-Python 3.x — no external libraries needed.
+**Edalat Sadigov** — Baku, Azerbaijan  
+[LinkedIn](https://www.linkedin.com/in/edaletsadigov) · [GitHub](https://github.com/edaletsadigov)
