@@ -8,9 +8,9 @@ Small Python scripts I wrote while learning the fundamentals. Each one is a stan
 
 | File | What it does |
 |------|-------------|
-| [bmi_calculator.py](bmi_calculator.py) | Calculates BMI and shows weight category |
-| [palindrome_checker.py](palindrome_checker.py) | Checks if a word/phrase is a palindrome |
-| [password_validator.py](password_validator.py) | Validates password strength across 5 criteria |
+| [bmi_calculator.py](BMİ_Calculator.py) | Calculates BMI and shows weight category |
+| [palindrome_checker.py](palindrome_Checker.py) | Checks if a word/phrase is a palindrome |
+| [password_validator.py](Password_validator.py) | Validates password strength across 5 criteria |
 
 ---
 
