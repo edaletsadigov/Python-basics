@@ -29,4 +29,4 @@ Python 3.x required. No pip installs needed.
 ## Author
 
 **Edalat Sadigov** — Baku, Azerbaijan  
-[LinkedIn](www.linkedin.com/in/edalet-sadigov-3b6297381) · [GitHub](https://github.com/edaletsadigov)
+[LinkedIn](https://www.linkedin.com/in/edalet-sadigov-3b6297381/) · [GitHub](https://github.com/edaletsadigov)
