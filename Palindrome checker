@@ -1,1 +1,10 @@
+# Palindrome Checker
+# Checks whether the entered word or phrase reads the same forwards and backwards
 
+word = input("Enter a word or phrase: ")
+clean = word.lower().replace(" ", "")
+
+if clean == clean[::-1]:
+    print(f'"{word}" is a palindrome ✓')
+else:
+    print(f'"{word}" is not a palindrome ✗')
