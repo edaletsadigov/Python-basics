@@ -12,7 +12,7 @@ Small Python scripts I wrote while learning the fundamentals. Each one is a stan
 | [palindrome_checker.py](palindrome_Checker.py) | Checks if a word/phrase is a palindrome |
 | [password_validator.py](Password_validator.py) | Validates password strength across 5 criteria |
 
----
+----
 
 ## Run any script
 
