@@ -1,37 +1,36 @@
-parol = input("Parol daxil edin: ")
+password = input("Enter a password: ")
 
-
-uzunluq = len(parol)
-if uzunluq>=8:
-    print("Simvol sayı yetərlidir.")
+length = len(password)
+if length >= 8:
+    print("Password length is sufficient.")
 else:
-    print("Simvol sayı yetərli deyil.")
+    print("Password is too short.")
 
-reqem = sum(char.isdigit() for char in parol)
-if reqem>=1:
-    print("Parolda ən azı bir rəqəm var.")  
+digit = sum(char.isdigit() for char in password)
+if digit >= 1:
+    print("Password contains at least one digit.")
 else:
-    print("Parolda rəqəm yoxdur.")
+    print("Password has no digits.")
 
-boyuk = sum("A" <= char <= "Z" for char in parol)
-if boyuk>=1:
-    print("Parolda ən azı bir böyük hərf var.")
+uppercase = sum(char.isupper() for char in password)
+if uppercase >= 1:
+    print("Password contains at least one uppercase letter.")
 else:
-    print("Parolda böyük hərf yoxdur.")
+    print("Password has no uppercase letters.")
 
-kiçik = sum("a" <= char <= "z" for char in parol)
-if kiçik>=1:
-    print("Parolda kiçik hərf var.")
+lowercase = sum(char.islower() for char in password)
+if lowercase >= 1:
+    print("Password contains at least one lowercase letter.")
 else:
-    print("Parolda kiçik hərf yoxdur.")
+    print("Password has no lowercase letters.")
 
-xususi = sum(char in "!@#$%^&*()-_=+[]{}|;:'\",.<>?/`~" for char in parol)
-if xususi>=1:
-    print("Parolda xüsusi simvol var.")
+special = sum(char in "!@#$%^&*()-_=+[]{}|;:'\",.<>?/`~" for char in password)
+if special >= 1:
+    print("Password contains at least one special character.")
 else:
-    print("Parolda xüsusi simvol yoxdur.")
+    print("Password has no special characters.")
 
-if uzunluq>=8 and reqem>=1 and boyuk>=1 and xususi>=1:
-    print("Parol güclüdür!")
+if length >= 8 and digit >= 1 and uppercase >= 1 and special >= 1:
+    print("Strong password!")
 else:
-    print("Parol zəifdir.")
+    print("Weak password.")
